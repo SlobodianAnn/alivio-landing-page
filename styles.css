@@ -84,6 +84,7 @@
 .section__title{
     font-size: 35px;
     max-width: 380px;
+    margin-bottom: 15px;
 }
 .release__title,
 .product__title{
@@ -123,7 +124,7 @@
     font-weight: bold;
 }
 .release-column__descr{
-    color: 424242;
+    color: #424242;
     font-size: 18px;
     margin-bottom: 50px;
 }
@@ -230,6 +231,7 @@
     }
     .release_head {
         flex-direction: column;
+        margin-bottom: 40px;
     }
     .release__columns-wrap{
         flex-direction: column;
@@ -251,6 +253,21 @@
     }
     .product__column2{
         margin-top: 60px;
+    }
+    .promo_sign-block{
+        display: none;
+    }
+    .promo__h1{
+        font-size: 35px;
+    }
+    .section__title{
+        font-size: 24px;
+    }
+    .promo__descr, 
+    .release__descr, 
+    .release-column__descr,
+    .product__descr{
+        font-size: 16px;
     }
 }
 
